@@ -12,6 +12,7 @@ sleep 50 &
 echo "PID of the last command in background is: $!"    # Here we will get sleep process ID
 
 
+# $? --> represents previous command exit status. 0 means success. 1 - 127 means failure
 # $@ and $* is used to get all arguments
 # $0 is to get the script name
 # & at the end tells the shell to run this command in the background.
