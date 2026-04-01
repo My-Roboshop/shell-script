@@ -13,6 +13,7 @@ echo "PID of the last command in background is: $!"    # Here we will get sleep 
 
 
 # $? --> represents previous command exit status. 0 means success. 1 - 127 means failure
-# $@ and $* is used to get all arguments
+# $@ and $* is used to get all argument names
+# $# To get the argument count
 # $0 is to get the script name
 # & at the end tells the shell to run this command in the background.
